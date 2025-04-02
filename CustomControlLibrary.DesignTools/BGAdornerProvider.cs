@@ -64,7 +64,7 @@ namespace CustomControlLibrary.DesignTools
 
             Adorners.Add(PanelForAdorners);
 
-            AdornerPlacementCollection redPlacement = (0);
+            AdornerPlacementCollection redPlacement = ConfigurePlacements(0);
             AdornerPlacementCollection bluePlacement = ConfigurePlacements(20);
             AdornerPlacementCollection greenPlacement = ConfigurePlacements(40);
 

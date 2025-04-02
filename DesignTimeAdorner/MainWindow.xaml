@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="MainWindow" d:Height="550" Width="800">
     <Grid>
-        <controls:Group Margin="80,80,80,80" Grid.ColumnSpan="2" Background="#FFFFC454">
+        <controls:Group Margin="80,80,80,80" Grid.ColumnSpan="2" Background="#FFFFFF82">
         </controls:Group>
     </Grid>
 </Window>

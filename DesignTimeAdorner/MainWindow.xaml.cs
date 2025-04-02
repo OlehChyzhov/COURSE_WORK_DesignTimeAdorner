@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace DesignTimeAdorner
 {
@@ -10,6 +11,12 @@ namespace DesignTimeAdorner
         public MainWindow()
         {
             InitializeComponent();
+            this.Closing += this.MainWindow_Closed;
+        }
+
+        private void MainWindow_Closed(object sender, System.EventArgs e)
+        {
+            Environment.Exit(0);
         }
 
         private void Group_Loaded(object sender, RoutedEventArgs e)
